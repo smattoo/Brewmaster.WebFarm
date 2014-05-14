@@ -1,5 +1,5 @@
 {
-  "Name": "Aditi.WebFarm2",
+  "Name": "Brewmaster.WebFarm",
   "Description": "Creates a two (2) server IIS WebFarm with WebDeploy publishing enabled.",
   "Version": "0.2.0",
   "Parameters": [
