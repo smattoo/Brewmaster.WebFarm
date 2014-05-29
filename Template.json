@@ -77,15 +77,15 @@
     "VirtualSites": []
   },
   "AffinityGroup": {
-    "Name": "{{AffinityGroup}}",
-    "Region": "{{Region}}",
+    "Name": "newtestAffinityGroup",
+    "Region": "East Us",
     "Label": "DSC created affinity group"
   },
   "StorageAccounts": [
     {
       "Name": "{{DiskStore}}",
-      "AffinityGroup": "{{AffinityGroup}}",
-      "Region": "{{Region}}",
+      "AffinityGroup": "newtestAffinityGroup",
+      "Region": "East Us",
       "Description": "A georedundant disk store",
       "DisableGeoReplication": false
     }
