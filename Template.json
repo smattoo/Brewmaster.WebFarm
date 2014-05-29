@@ -77,24 +77,24 @@
     "VirtualSites": []
   },
   "AffinityGroup": {
-    "Name": "newtestAffinityGroup",
-    "Region": "East Us",
+    "Name": "sagartestnewafgroup",
+    "Region": "East US",
     "Label": "DSC created affinity group"
   },
   "StorageAccounts": [
     {
       "Name": "{{DiskStore}}",
-      "AffinityGroup": "newtestAffinityGroup",
-      "Region": "East Us",
-      "Description": "A georedundant disk store",
-      "DisableGeoReplication": false
+      "AffinityGroup": "sagartestnewafgroup",
+      "Region": "East US",
+      "Description": "A non georedundant disk store",
+      "DisableGeoReplication": true
     }
   ],
   "CloudServices": [
     {
-      "Name": "newtestcloudservice",
-      "AffinityGroup": "newtestAffinityGroup",
-      "Region": "East Us",
+      "Name": "sagartestnewcsservice",
+      "AffinityGroup": "sagartestnewafgroup",
+      "Region": "East US",
       "Description": "My WebFarm cloud service",
       "Deployment": {
         "VirtualMachines": [
