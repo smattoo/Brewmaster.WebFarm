@@ -92,9 +92,9 @@
   ],
   "CloudServices": [
     {
-      "Name": "{{CloudService}}",
-      "AffinityGroup": "{{AffinityGroup}}",
-      "Region": "{{Region}}",
+      "Name": "newtestcloudservice",
+      "AffinityGroup": "newtestAffinityGroup",
+      "Region": "East Us",
       "Description": "My WebFarm cloud service",
       "Deployment": {
         "VirtualMachines": [
