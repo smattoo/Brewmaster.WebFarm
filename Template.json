@@ -20,6 +20,12 @@
       "Type": "String",
       "TypeHint": "AzureCloudServiceName",
       "Description": "Name of the Azure Cloud Service."
+    },        
+    {
+      "Name": "ReservedIP",
+      "Type": "String",
+      "TypeHint": "AzureReservedIPName",
+      "Description": "Reserved ip for sql."             
     },
     {
       "Name": "DiskStore",
