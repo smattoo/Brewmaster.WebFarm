@@ -25,7 +25,8 @@
       "Name": "ReservedIP",
       "Type": "String",
       "TypeHint": "AzureReservedIPName",
-      "Description": "Reserved ip for sql."             
+      "Description": "Reserved ip for sql.",
+      "Default": ""       
     },
     {
       "Name": "DiskStore",
